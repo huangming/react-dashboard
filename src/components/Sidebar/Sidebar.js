@@ -7,6 +7,8 @@ import LinksGroup from './LinksGroup/LinksGroup';
 
 import s from './Sidebar.module.scss';
 
+import CustomMenu from '../../custom/components/Sidebar/CustomSidebar';
+
 const Sidebar = () => (
   <nav className={s.root}>
     <header className={s.logo}>
@@ -58,6 +60,7 @@ const Sidebar = () => (
         ]}
         glyph="components"
       />
+      <CustomMenu />
     </ul>
   </nav>
 );

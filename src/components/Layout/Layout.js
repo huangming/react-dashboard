@@ -30,6 +30,8 @@ import Posts from '../../pages/posts'
 import Profile from '../../pages/profile'
 import Privacy from '../../pages/privacy'
 
+import CustomRoute from '../../custom/components/Layout/CustomRouter.js'
+
 class Layout extends React.Component {
   constructor(props) {
     super(props);
@@ -66,6 +68,7 @@ class Layout extends React.Component {
               <Route path="/app/components/charts" exact component={Charts} />
               <Route path="/app/components/icons" exact component={Icons} />
               <Route path="/app/components/maps" exact component={Maps} />
+              <CustomRoute />
               <Route component={NotFound} />
             </Switch>
           </main>

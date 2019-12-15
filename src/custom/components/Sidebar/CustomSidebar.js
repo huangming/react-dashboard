@@ -12,6 +12,10 @@ function CustomMenu(props) {
             name: 'B-A2-1',
             link: '/app/cisp/B-A2-1',
           },
+          {
+            name: 'B-A3-1',
+            link: '/app/cisp/B-A3-1',
+          },
         ]}
         glyph="components"
       />                               
